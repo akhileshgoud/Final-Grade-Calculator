@@ -1,6 +1,3 @@
-/*
-	Akhilesh Goud, Aila - 999990675
-*/
 import java.io.*;
 import javax.swing.*;
 import java.awt.*;
@@ -24,14 +21,14 @@ class FinalProject {
 					JFrame result_gui = new JFrame();
 					result_gui.setVisible(true);
 					result_gui.setResizable(false);
-					result_gui.setTitle("MCIS 5103 - Advance Programming Concepts - Final Project - Akhilesh Goud, Aila - 999990675");
+					result_gui.setTitle("GradeCalci - Java - AG");
 					result_gui.setBounds(100, 50, 800, 650);
 					result_gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 					result_gui.getContentPane().setLayout(null);
 					
 					JPanel panel_1 = new JPanel();
 					panel_1.setBounds(0, 0, 800, 80);		
-					String headng = "<html><center><br>Final Grade Calculator</center></html>";
+					String headng = "<html><center><br>Grade Calculator</center></html>";
 					JLabel title_label = new JLabel(headng);
 					title_label.setFont(new Font("Calibri", Font.BOLD, 21));
 					panel_1.add(title_label);
