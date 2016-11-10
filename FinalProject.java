@@ -36,7 +36,7 @@ class FinalProject {
 					
 					JPanel panel_6 = new JPanel();
 					panel_6.setBounds(0, 600, 800, 50);
-					JLabel footer_label = new JLabel("Copyright 2016, AG");
+					JLabel footer_label = new JLabel("Copyright 2009, AG");
 					panel_6.add(footer_label);
 					result_gui.getContentPane().add(panel_6);
 					
